@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #004aad;
+    --bg-color: #f8f9fa;
+    --border-color: #004aad;
+  }
+  
+  body {
+    background-color: var(--bg-color, #ffffff);
+    color: rgb(33, 33, 33);
+  }
+
+  header {
+    margin-top: 2rem;
+    padding: 20px;
+    width: 90%;
+    border: 1pt solid #000;
+    max-width: 120cm;
+    font-size: 3vw;
+  }
+  
+  main {
+    margin: 20px 15px 25px 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    padding-top: 10px;
+    border: 2px solid var(--primary-color);
+    border-style: dashed;
+    border-radius: 8px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    text-decoration: none;
+    color: hsl(210, 80%, 40%);
+  }
+  
+  section {
+    background-color: #e9ecef;
+  }

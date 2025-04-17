@@ -96,4 +96,83 @@
   body {
     font-family: 'Open Sans', sans-serif;
   }
+
+  .section-title {
+    font-weight: bold;
+  }
+  
+  #agenda {
+    border: 1px solid var(--border-color, #000);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  p:hover {
+    background-color: #f0f0f0;
+  }
+
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  ul > li {
+    margin-bottom: 5px;
+  }
+  h2 ~ p {
+    font-style: italic;
+  }
+  h2 + p {
+    margin-top: 0;
+  }
+  section.section-title {
+    text-transform: uppercase;
+  }
+  
+  section:has(ul) {
+    border: 2px dashed #666;
+  }
+  
+  nav {
+    & a {
+      text-decoration: none;
+      color: var(--primary-color);
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+  }
+  textarea, input, select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  button:active {
+    background-color: color-mix(in srgb, #ccc 50%, white 50%);
+  }
 }
